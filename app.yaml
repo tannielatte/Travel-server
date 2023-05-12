@@ -1,0 +1,8 @@
+runtime: nodejs16
+env_variables:
+  KEY: "VALUE"
+
+handlers:
+- url: /.*
+  script: auto
+
